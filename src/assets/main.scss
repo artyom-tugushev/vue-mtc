@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(245,245,245);
+  margin: 0;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.default-layout{
+  position: relative;
+  padding-left: 18rem;
+  padding-top: 1.5rem;
+  min-height: 100vh;
+}
+.signin-logo {
+  width: 106px;
+  
+  height: 80px; 
+}
+.dashboard-logo {
+  width: 64px;
+  height: 48px; 
+}
+.logo-text {
+  font-size: 0.75rem;
+}
+.small-logo-text {
+  font-size: 0.5rem;
+}
+.teachers-search-input {
+  height: 42px
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-left: 1px solid var(--surface-300);
+  border-right: 1px solid var(--surface-300);
+}
+.calc-height{
+  width: 230px;
+  height: calc(-3rem + 100vh);
+}
+.active-menu{
+  color: var(--primary-color) !important;
+  background-color: var(--surface-100);
+  border-radius: 0.25rem;
+}
+.gray-text{
+  color: var(--surface-800);
+}
+.border-05{
+  border: 0.5px solid var(--surface-300);
+}
+
